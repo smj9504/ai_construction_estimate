@@ -1,0 +1,58 @@
+measurements:
+  - type: "length"
+    value: 120
+    unit: "inches"
+    display: "10'-0\""
+    original_text: "Wall length 10 feet"
+    confidence: 0.95
+    location: "Living Room"
+  
+  - type: "dimension"
+    value:
+      width: 12
+      height: 8
+      area: 96
+    unit: "feet"
+    display: "12 x 8"
+    original_text: "Room dimensions 12x8"
+    confidence: 0.88
+    location: "Bedroom"
+  
+  - type: "area"
+    value: 100
+    unit: "sq_ft"
+    display: "100 sq ft"
+    original_text: "Floor area 100 square feet"
+    confidence: 0.92
+    location: "Kitchen"
+  
+  - type: "length"
+    value: 84
+    unit: "inches"
+    display: "7'-0\""
+    original_text: "Door height 7 feet"
+    confidence: 0.89
+    location: "Entry"
+
+work_scopes:
+  - id: "demo_wall_removal"
+    name: "Interior Wall Demolition"
+    category: "demolition"
+    description: "Remove interior non-load bearing walls"
+    unit_type: "linear_ft"
+    base_rate: 15.0
+    labor_hours: 0.5
+    material_factor: 0.1
+    complexity_factor: 1.0
+    keywords: ["wall", "demolition", "remove", "demo"]
+  
+  - id: "flooring_install"
+    name: "Hardwood Flooring Installation"
+    category: "flooring"
+    description: "Install hardwood flooring with underlayment"
+    unit_type: "sq_ft"
+    base_rate: 12.0
+    labor_hours: 0.3
+    material_factor: 1.5
+    complexity_factor: 1.2
+    keywords: ["floor", "hardwood", "flooring", "wood"]

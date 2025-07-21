@@ -49,6 +49,14 @@ output/
 *.log
 temp/
 
-# API Keys
+# API Keys and Credentials
 api_keys.txt
 secrets.json
+gcp-vision-key.json
+*-key.json
+.credentials/
+credentials/
+# Allow specific config JSON files
+!package.json
+!pyproject.toml
+!*.config.json

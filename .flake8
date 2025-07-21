@@ -1,0 +1,26 @@
+[flake8]
+# E305: expected 2 blank lines after class or function definition
+# E501: line too long
+# W503: line break before binary operator
+# F401: imported but unused
+
+ignore = E305, E501, W503, F401, E302, E305, E203, F541
+max-line-length = 120
+max-complexity = 10
+
+# 제외할 파일들
+exclude = 
+    .git,
+    __pycache__,
+    .venv,
+    venv,
+    .pytest_cache,
+    build,
+    dist,
+    *.egg-info
+
+# 제외할 디렉토리
+per-file-ignores =
+    __init__.py:F401
+    */migrations/*:E501
+    */tests/*:E501

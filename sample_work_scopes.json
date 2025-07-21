@@ -1,0 +1,52 @@
+{
+  "work_scopes": [
+    {
+      "id": "electrical_outlet",
+      "name": "Electrical Outlet Installation",
+      "category": "electrical",
+      "description": "Install standard 110V electrical outlets",
+      "unit_type": "each",
+      "base_rate": 85.0,
+      "labor_hours": 1.0,
+      "material_factor": 0.3,
+      "complexity_factor": 1.0,
+      "keywords": ["outlet", "electrical", "plug", "electric"]
+    },
+    {
+      "id": "drywall_install",
+      "name": "Drywall Installation",
+      "category": "finishing",
+      "description": "Install and finish drywall with tape and compound",
+      "unit_type": "sq_ft",
+      "base_rate": 3.5,
+      "labor_hours": 0.1,
+      "material_factor": 0.8,
+      "complexity_factor": 1.0,
+      "keywords": ["drywall", "wall", "finish", "install"]
+    },
+    {
+      "id": "door_install",
+      "name": "Interior Door Installation",
+      "category": "carpentry",
+      "description": "Install interior doors with hardware and trim",
+      "unit_type": "each",
+      "base_rate": 150.0,
+      "labor_hours": 3.0,
+      "material_factor": 1.0,
+      "complexity_factor": 1.1,
+      "keywords": ["door", "install", "interior", "entry"]
+    },
+    {
+      "id": "paint_interior",
+      "name": "Interior Painting",
+      "category": "finishing",
+      "description": "Prime and paint interior walls (two coats)",
+      "unit_type": "sq_ft",
+      "base_rate": 2.5,
+      "labor_hours": 0.05,
+      "material_factor": 0.6,
+      "complexity_factor": 1.0,
+      "keywords": ["paint", "painting", "interior", "wall"]
+    }
+  ]
+}
